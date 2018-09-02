@@ -59,7 +59,7 @@ declare var process: { env: { [key: string]: string | undefined; } };
 // .env.dev
 // https://github.com/ionic-team/ionic-app-scripts/pull/1471#issue-210604229
 
-ENVIR_NAME=Develpment
+ENVIR_NAME=Development
 SOME_KEY=abc-dev
 ```
 
@@ -97,7 +97,7 @@ export class HomePage {
 ```bash
 # Test drive
 ionic serve
-# It will write 'Develpment' for envirName
+# It will write 'Development' for envirName
 ```
 
 ```bash
