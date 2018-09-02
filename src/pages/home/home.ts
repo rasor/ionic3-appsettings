@@ -7,8 +7,9 @@ import { NavController } from 'ionic-angular';
 })
 export class HomePage {
 
+  envirName: string;
+
   constructor(public navCtrl: NavController) {
-
+    this.envirName = process.env.ENVIR_NAME;
   }
-
 }
