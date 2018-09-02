@@ -8,7 +8,14 @@
     "start": "ionic-app-scripts serve",
     "clean": "ionic-app-scripts clean",
     "build": "ionic-app-scripts build",
-    "lint": "ionic-app-scripts lint"
+    "lint": "ionic-app-scripts lint",
+    "serve-atest": "ionic-app-scripts serve --copy ./config/copy-atest.config.js",
+    "build-atest": "ionic-app-scripts build --copy ./config/copy-atest.config.js --prod --aot",
+    "serve-prod": "ionic-app-scripts serve --copy ./config/copy-prod.config.js",
+    "build-prod": "ionic-app-scripts build --prod --aot"
+  },
+  "config": {
+    "ionic_copy": "./config/copy.config.js"
   },
   "dependencies": {
     "@angular/animations": "5.2.11",
